@@ -1,7 +1,7 @@
 # Goodreads - Quotes - User Interface
 This is an User Interface to get the top 10 quotes by Mark Twain from goodreads.com through a script running behind the scenes once the application starts. My main objective while solving this exercise was to focus on the correct display of data rather than fancy way to show it.  
 
-The script [forms.py](https://github.com/sushantgupta1206/GUPSUS03part2/blob/master/GoodReadsScrapperUI/forms.py) is the main python script to be run from a command line and it will start a server on the local host where the user is expected to enter his/ her credentials in order to view the most famous quotes by Mark Twain. The script when executed, authenticates the user to `http://www.Goodreads.com website`. The code then finds, retrieves and rebders the [html page](https://github.com/sushantgupta1206/GUPSUS03part2/blob/master/GoodReadsScrapperUI/templates/good_reads.html) on the localhost which displays the top 10 popular quotes from **Mark Twain** on the UI.      
+The script [forms.py](https://github.com/sushantgupta1206/GUPSUS03part2/blob/master/GoodReadsScrapperUI/forms.py) is the main python script to be run from a command line and it will start a server on the local host where the user is expected to enter his/ her credentials in order to view the most famous quotes by Mark Twain. The script when executed, authenticates the user to `http://www.Goodreads.com website`. The code then finds, retrieves and renders the [html page](https://github.com/sushantgupta1206/GUPSUS03part2/blob/master/GoodReadsScrapperUI/templates/good_reads.html) on the localhost which displays the top 10 popular quotes from **Mark Twain** on the UI.      
   
   
 **Technology Stack used :**   
